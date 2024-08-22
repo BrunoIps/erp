@@ -2,7 +2,9 @@ import ComoAdicionarImagensEmLoteNosProdutosDoSistemaERP from "../screens/cadast
 import ComoAprovarEFaturarPedidosEOrcamentosNoSistemaERP from "../screens/cadastrosBasicos/ComoAprovarEFaturarPedidosEOrcamentosNoSistemaERP";
 import ComoCadastrarCategoriasDeVendaParaOperacoesFiscaisNoSistemaERP from "../screens/cadastrosBasicos/ComoCadastrarCategoriasDeVendaParaOperacoesFiscaisNoSistemaERP";
 import ComoCadastrarTabelasDePrecosNoSistemaERP from "../screens/cadastrosBasicos/ComoCadastrarTabelasDePrecosNoSistemaERP";
+import ComoConfigurarOsTamanhosDeProdutosNoSistemaERP from "../screens/cadastrosBasicos/ComoConfigurarOsTamanhosDeProdutosNoSistemaERP";
 import ComoInformarOGrupoTributarioNosProdutosnoSistemaERP from "../screens/cadastrosBasicos/ComoInformarOGrupoTributarioNosProdutosnoSistemaERP";
+import IntegrandoMercadoPagoNoSistemaERP from "../screens/cadastrosBasicos/IntegrandoMercadoPagoNoSistemaERP";
 
 export const cadastroBasico = [
   {
@@ -18,7 +20,7 @@ export const cadastroBasico = [
   {
     text: "Integrando Mercado Pago no Sistema ERP",
     path: "/cadastros-basicos/integrando-mercado-pago-no-sistema-erp",
-    element: <ComoCadastrarTabelasDePrecosNoSistemaERP />,
+    element: <IntegrandoMercadoPagoNoSistemaERP />,
   },
   {
     text: "Como cadastrar Categorias de Venda para operações fiscais no Sistema ERP",
@@ -34,5 +36,10 @@ export const cadastroBasico = [
     text: "Como informar o Grupo Tributário nos Produtos no Sistema ERP",
     path: "/cadastros-basicos/como-informar-o-grupo-tributario-nos-produtos-no-sistema-erp",
     element: <ComoInformarOGrupoTributarioNosProdutosnoSistemaERP />,
+  },
+  {
+    text: "Como configurar os Tamanhos de Produtos no Sistema ERP",
+    path: "/cadastros-basicos/como-configurar-os-tamanhos-de-produtos-no-sistema-erp",
+    element: <ComoConfigurarOsTamanhosDeProdutosNoSistemaERP />,
   },
 ];

@@ -18,12 +18,17 @@ const ComoConfigurarTamanhosDeCaixaNaLojaOnline = () => {
           embalagens sejam sincronizadas com a integração do SIGEP Web
           (Correios). Nesse caso, se você deseja enviar as mercadorias para seus
           clientes através dos correios, será necessário realizar esta
-          configuração na sua Loja Online, e depois, cadastrar os tamanhos de
-          caixas que você utilizará para o envio das mercadorias. Lembrando que
-          os tamanhos precisam estar configurados no módulo Estoque e devem
-          estar informados dentro do cadastro do produto. Mas além disso, é
-          necessário configurar estes tamanhos no módulo Loja Online.
-          {/* aqui tem que fazer pagina  */}
+          <a href="/loja-online/como-permitir-a-entrega-de-produtos-via-correios-na-loja-online">
+            configuração na sua Loja Online
+          </a>
+          , e depois, cadastrar os tamanhos de caixas que você utilizará para o
+          envio das mercadorias. Lembrando que os tamanhos precisam estar
+          configurados no{" "}
+          <a href="/cadastros-basicos/como-configurar-os-tamanhos-de-produtos-no-sistema-erp">
+            módulo Estoque
+          </a>{" "}
+          e devem estar informados dentro do cadastro do produto. Mas além
+          disso, é necessário configurar estes tamanhos no módulo Loja Online.
         </p>
         <p>
           Para isso, acesse o menu lateral <b>Loja Online</b>, submenu{" "}

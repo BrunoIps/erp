@@ -35,11 +35,13 @@ const PorQueNaoEstaCalculandoORreteDosCorreiosNaLojaOnline = () => {
           Ao anunciar um produto na Loja Online, em que o envio ocorre através
           dos Correios, é necessário que os produtos estejam configurados com o
           peso e tamanho. Para saber como realizar o cadastro do tamanho no
-          sistema, acompanhe o artigo: Como configurar os Tamanhos de Produtos
-          no Sistema ERP. Lembrando que no cadastro do tamanho, deve ser
-          habilitado o campo <b>Visível no SIGEP</b>, para que o Sistema ERP se
-          comunique com o sistema dos Correios.
-          {/* aqui tem que fazer pagina  */}
+          sistema, acompanhe o artigo:{" "}
+          <a href="/cadastros-basicos/como-configurar-os-tamanhos-de-produtos-no-sistema-erp">
+            Como configurar os Tamanhos de Produtos no Sistema ERP
+          </a>
+          . Lembrando que no cadastro do tamanho, deve ser habilitado o campo{" "}
+          <b>Visível no SIGEP</b>, para que o Sistema ERP se comunique com o
+          sistema dos Correios.
         </p>
         <p>
           Feito isso, você poderá inserir o tamanho e o peso no cadastro do

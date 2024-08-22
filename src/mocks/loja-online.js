@@ -56,6 +56,7 @@ import EPossivelTerDuasLojasOnline from "../screens/lojaOnline/EPossivelTerDuasL
 import ConfigurandoSuaLojaDeliveryDentroDaLojaOnline from "../screens/lojaOnline/ConfigurandoSuaLojaDeliveryDentroDaLojaOnline";
 import ComoConfigurarODominioDaLocaWebNaLojaOnlineDoSistemaERP from "../screens/lojaOnline/ComoConfigurarODominioDaLocaWebNaLojaOnlineDoSistemaERP";
 import ComoObterAAPIKeyEOTokenDaPagHiperParaALojaOnlineDoSistemaERP2 from "../screens/lojaOnline/ComoObterAAPIKeyEOTokenDaPagHiperParaALojaOnlineDoSistemaERP2";
+import UtilizandoPIXDoMercadoPagoNaLojaOnline from "../screens/lojaOnline/UtilizandoPIXDoMercadoPagoNaLojaOnline";
 
 export const cardsLojaOnline = [
   {
@@ -353,5 +354,6 @@ export const cardsLojaOnline = [
   {
     text: "Utilizando PIX do Mercado Pago na Loja Online",
     path: "/loja-online/utilizando-pix-do-mercado-pago-na-loja-online",
+    element: <UtilizandoPIXDoMercadoPagoNaLojaOnline />,
   },
 ];
