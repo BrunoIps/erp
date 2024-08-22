@@ -296,13 +296,15 @@ const ComoConfigurarAsEntregasDaLojaOnlineDoSistemaERP = () => {
           Agora, basta clicar em <strong>Salvar</strong> e as suas configurações
           de entrega já serão aplicadas no site da loja.
         </p>
-        {/* aqui precisa fazer pagina */}
 
-        {/* <p>
-          Não deixe de acompanhar o artigo: Como configurar as Integrações na
-          Loja Online. Depois de seguir todos os passos, você poderá clicar em
-          Exibir Loja para começar a vender!
-        </p> */}
+        <p>
+          Não deixe de acompanhar o artigo:
+          <a href="/loja-online/como-configurar-as-integracoes-na-loja-online-do-sistema-erp">
+            Como configurar as Integrações na Loja Online.
+          </a>{" "}
+          Depois de seguir todos os passos, você poderá clicar em Exibir Loja
+          para começar a vender!
+        </p>
       </Typography>
     </Container>
   );

@@ -72,7 +72,7 @@ const ComoConfigurarODominioDaLocaWebNaLojaOnlineDoSistemaERP = () => {
           alterações na internet, que pode levar de 4 a 24 horas.
         </p>
 
-        <h2>Sistema ERP</h2>
+        <h4>Sistema ERP</h4>
 
         <p>
           Acesse Menu Lateral <b>Loja Online</b> e em seguida, no Submenu{" "}

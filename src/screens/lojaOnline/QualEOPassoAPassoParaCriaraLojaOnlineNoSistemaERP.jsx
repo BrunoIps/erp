@@ -78,10 +78,11 @@ const QualEOPassoAPassoParaCriaraLojaOnlineNoSistemaERP = () => {
       <Typography variant="body1" gutterBottom>
         <p>
           Mas além de configurar estas configurações gerais, também é necessário
-          que você informe quais produtos deseja vender no seu site.
-          {/*  Para isto, acompanhe o artigo: Como enviar Produtos para a Loja Online.
-              aqui tem que fazer pagina 
-          */}
+          que você informe quais produtos deseja vender no seu site. Para isto,
+          acompanhe o artigo:{" "}
+          <a href="/loja-online/como-enviar-produtos-para-a-loja-online-do-sistema-erp">
+            Como enviar Produtos para a Loja Online.
+          </a>
         </p>
       </Typography>
     </Container>

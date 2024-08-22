@@ -62,14 +62,6 @@ const ComoConfigurarAPagHiperNaLojaOnlineDoSistemaERP = () => {
           ;
         </p>
         <p>
-          <strong>Token:</strong> informe o Token Key obtido no painel do
-          PagHiper. Para saber mais,
-          <a href="/loja-online/como-obter-a-apikey-e-o-token-da-paghiper-para-a-loja-online-do-sistema-erp">
-            clique aqui
-          </a>
-          ;
-        </p>
-        <p>
           <strong>Empresa:</strong> informe a empresa que será integrada ao
           PagHiper.
         </p>

@@ -1,5 +1,8 @@
 import ComoAdicionarImagensEmLoteNosProdutosDoSistemaERP from "../screens/cadastrosBasicos/ComoAdicionarImagensEmLoteNosProdutosDoSistemaERP";
+import ComoAprovarEFaturarPedidosEOrcamentosNoSistemaERP from "../screens/cadastrosBasicos/ComoAprovarEFaturarPedidosEOrcamentosNoSistemaERP";
+import ComoCadastrarCategoriasDeVendaParaOperacoesFiscaisNoSistemaERP from "../screens/cadastrosBasicos/ComoCadastrarCategoriasDeVendaParaOperacoesFiscaisNoSistemaERP";
 import ComoCadastrarTabelasDePrecosNoSistemaERP from "../screens/cadastrosBasicos/ComoCadastrarTabelasDePrecosNoSistemaERP";
+import ComoInformarOGrupoTributarioNosProdutosnoSistemaERP from "../screens/cadastrosBasicos/ComoInformarOGrupoTributarioNosProdutosnoSistemaERP";
 
 export const cadastroBasico = [
   {
@@ -20,6 +23,16 @@ export const cadastroBasico = [
   {
     text: "Como cadastrar Categorias de Venda para operações fiscais no Sistema ERP",
     path: "/cadastros-basicos/como-cadastrar-categorias-de-venda-para-operacoes-fiscais-no-sistema-erp",
-    element: <ComoCadastrarTabelasDePrecosNoSistemaERP />,
+    element: <ComoCadastrarCategoriasDeVendaParaOperacoesFiscaisNoSistemaERP />,
+  },
+  {
+    text: "Como Aprovar e Faturar Pedidos e Orçamentos no Sistema ERP",
+    path: "/cadastros-basicos/como-aprovar-e-faturar-pedidos-e-orcamentos-no-sistema-erp",
+    element: <ComoAprovarEFaturarPedidosEOrcamentosNoSistemaERP />,
+  },
+  {
+    text: "Como informar o Grupo Tributário nos Produtos no Sistema ERP",
+    path: "/cadastros-basicos/como-informar-o-grupo-tributario-nos-produtos-no-sistema-erp",
+    element: <ComoInformarOGrupoTributarioNosProdutosnoSistemaERP />,
   },
 ];

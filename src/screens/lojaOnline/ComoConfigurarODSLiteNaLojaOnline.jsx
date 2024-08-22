@@ -115,20 +115,26 @@ const ComoConfigurarODSLiteNaLojaOnline = () => {
           Por fim, de acordo com a forma de pagamento informada pelo cliente no
           momento de finalização da compra, o pedido é informado no Sistema ERP
           com o status de “pedido faturado” ou “pedido”. Em caso de ser
-          “pedido”, é possível que você informe alguma categoria de venda que
-          não movimente o estoque. Porém, caso estiver com o status de “pedido
-          faturado”, por padrão, será informada a Categoria De Venda Padrão que
-          foi configurada na Loja Online, podendo ou não realizar movimentações
-          no seu estoque.
+          “pedido”, é possível que você informe alguma{" "}
+          <a href="/cadastros-basicos/como-cadastrar-categorias-de-venda-para-operacoes-fiscais-no-sistema-erp">
+            categoria de venda
+          </a>{" "}
+          que não movimente o estoque. Porém, caso estiver com o status de
+          “pedido faturado”, por padrão, será informada a Categoria De Venda
+          Padrão que foi configurada na Loja Online, podendo ou não realizar
+          movimentações no seu estoque.
           {/* aqui precisa fazer pagina */}
         </p>
         <p>
-          Após isso, basta emitir a NF-e do seu pedido e automaticamente os
-          dados da venda serão repassados ao fornecedor, por meio da integração
-          com o DSLite. Sendo assim, o fornecedor receberá os dados dos itens
-          comprados pelo seu cliente, bem como o endereço que será realizada a
-          entrega. Dessa forma, você poderá acompanhar o andamento desse
-          processo diretamente pelo painel DSLite.
+          Após isso,{" "}
+          <a href="/vendas/como-emitir-nf-e-atraves-de-pedidos-no-sistema-erp">
+            basta emitir a NF-e do seu pedido
+          </a>{" "}
+          e automaticamente os dados da venda serão repassados ao fornecedor,
+          por meio da integração com o DSLite. Sendo assim, o fornecedor
+          receberá os dados dos itens comprados pelo seu cliente, bem como o
+          endereço que será realizada a entrega. Dessa forma, você poderá
+          acompanhar o andamento desse processo diretamente pelo painel DSLite.
           {/* aqui precisa fazer pagina */}
         </p>
       </Typography>

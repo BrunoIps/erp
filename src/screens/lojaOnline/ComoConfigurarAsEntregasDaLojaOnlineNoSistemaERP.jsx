@@ -101,7 +101,7 @@ const ComoConfigurarAsEntregasDaLojaOnlineNoSistemaERP = () => {
           clicando no ícone de mais.
         </p>
 
-        <h2>JadLog</h2>
+        <h4>JadLog</h4>
 
         <p>
           Você também poderá habilitar a plataforma de envio JadLog, assim seus
@@ -127,7 +127,7 @@ const ComoConfigurarAsEntregasDaLojaOnlineNoSistemaERP = () => {
           JadLog.
         </p>
 
-        <h2>Configurações gerais para frete</h2>
+        <h4>Configurações gerais para frete</h4>
 
         <p>
           Depois de configurar as integrações com plataformas de envio, você
