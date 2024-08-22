@@ -78,12 +78,13 @@ const ComoConfigurarAsEntregasDaLojaOnlineDoSistemaERP = () => {
         <p>
           Para utilizar o SIGEP WEB, é importante que o contrato da sua empresa
           com os Correios já esteja firmado e você possua todos os dados
-          necessários para realizar a integração com o Sistema ERP.
-          {/* Veja o
-          artigo: Como configurar a integração com os Correios SIGEP Web e saiba
-          mais sobre o assunto. */}
+          necessários para realizar a integração com o Sistema ERP. Veja o
+          artigo:{" "}
+          <a href="/cadastros-basicos/como-realizar-a-integracao-com-correios-sigep-web-no-sistema-erp">
+            Como configurar a integração com os Correios SIGEP Web
+          </a>{" "}
+          e saiba mais sobre o assunto.
         </p>
-        {/* aqui precisa fazer pagina */}
         <p>
           Ao marcar a opção <b>SIGEP Web,</b> o sistema expandirá e lhe
           apresentará algumas informações que você precisará preencher. São

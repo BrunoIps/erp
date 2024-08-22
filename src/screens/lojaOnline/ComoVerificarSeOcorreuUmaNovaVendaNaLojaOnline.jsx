@@ -43,15 +43,12 @@ const ComoVerificarSeOcorreuUmaNovaVendaNaLojaOnline = () => {
         <ul>
           <li>
             A empresa responsável pela Loja Online deve possuir servidor de
-            e-mails configurado. Para saber como realizar esta configuração
-            {/*
-            qui tem que fazer pagina 
-            ,
+            e-mails configurado. Para saber como realizar esta configuração,
             siga o artigo:
-            <a href="your-link-to-configure-email-server">
+            <a href="/cadastros-basicos/como-configurar-o-servidor-de-e-mail-no-sistema-erp">
               Como configurar Servidor de E-mail no Loja Online
             </a>
-            ; */}
+            ;
           </li>
           <br />
           <li>

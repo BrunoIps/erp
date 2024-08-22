@@ -9,7 +9,9 @@ import BoxImage from "../../components/Image/BoxImage";
 const QualEOPassoAPassoParaCriaraLojaOnlineNoSistemaERP = () => {
   return (
     <Container maxWidth="md" sx={{ mt: 4 }}>
-      <TitleComponent>Como Aprovar Clientes na Loja Online</TitleComponent>
+      <TitleComponent>
+        Qual é o passo a passo para criar a Loja Online no Sistema ERP
+      </TitleComponent>
 
       <Typography variant="body1" gutterBottom>
         <p>

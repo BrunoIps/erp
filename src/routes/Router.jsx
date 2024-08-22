@@ -16,6 +16,9 @@ import { vendas } from "../mocks/vendas";
 import ScrollToTop from "../components/Scroll/ScrollToTop";
 import Vendas from "../screens/vendas/vendas";
 import { fiscal } from "../mocks/fiscal";
+import { configuracoes } from "../mocks/configuracoes";
+import FiscalIndex from "../screens/fiscal";
+import ConfiguracoesIndex from "../screens/configuracoes";
 
 const MyRoutes = () => {
   return (
@@ -27,6 +30,8 @@ const MyRoutes = () => {
           <Route path="/" element={<Navigate to="/loja-online" />} />
           <Route path="/cadastros-basicos" element={<CadastroBasicoIndex />} />
           <Route path="/vendas" element={<Vendas />} />
+          <Route path="/fiscal" element={<FiscalIndex />} />
+          <Route path="/configuracoes" element={<ConfiguracoesIndex />} />
           {cardsLojaOnline.map((card) => {
             if (card.element) {
               return <Route path={card.path} element={card.element} />;
@@ -46,6 +51,12 @@ const MyRoutes = () => {
             return null;
           })}
           {fiscal.map((card) => {
+            if (card.element) {
+              return <Route path={card.path} element={card.element} />;
+            }
+            return null;
+          })}
+          {configuracoes.map((card) => {
             if (card.element) {
               return <Route path={card.path} element={card.element} />;
             }

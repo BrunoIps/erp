@@ -13,13 +13,11 @@ const ComoVenderProdutosPizzaNaLojaOnlineDoSistemaERP = () => {
       </TitleComponent>
 
       <Typography variant="body1" gutterBottom>
-        {/*
-        aqui tem que fazer pagina
         <p>
           Antes de começar, certifique-se de que já possui os produtos
           cadastrados corretamente. Caso ainda não tenha realizado o cadastro,
           veja o artigo{" "}
-          <a href="URL_DO_ARTIGO">
+          <a href="/cadastros-basicos/como-cadastrar-produtos-do-tipo-pizza-no-sistema-erp">
             Como cadastrar Produtos do Tipo Pizza no Sistema ERP
           </a>{" "}
           e saiba mais sobre o assunto.
@@ -29,16 +27,15 @@ const ComoVenderProdutosPizzaNaLojaOnlineDoSistemaERP = () => {
           Com o produto já cadastrado, você precisará enviá-lo à sua LOJA
           Online. Caso não saiba como realizar este passo a passo, você poderá
           acompanhar o artigo{" "}
-          <a href="URL_DO_ARTIGO">
+          <a href="/loja-online/como-vender-produtos-pizza-na-loja-online-do-sistema-erp">
             Como enviar os produtos para a loja online.
           </a>
         </p>
-        <br /> */}
+        <br />
         <p>
           Agora, os seus pedidos destes produtos serão realizados da seguinte
           forma. Acesse a sua LOJA Online e escolha um produto.
         </p>
-
         <BoxImage src={Image1} />
       </Typography>
       <Typography variant="body1" gutterBottom>

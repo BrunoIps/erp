@@ -207,8 +207,8 @@ const ComoConfigurarOVisualDaLojaOnlineNoSistemaERP = () => {
           opção estará disponível caso deseje solicitar dados específicos ao
           novo usuário. Para isso, é necessário que você crie esses campos nos
           atributos do seu sistema, configurando-os como pessoas. Para saber
-          como criá-los, siga este artigo: {/* aqui precisa fazer pagina */}{" "}
-          <a href="#">
+          como criá-los, siga este artigo:{" "}
+          <a href="/configuracoes/como-configurar-os-campos-personalizados-no-sistema-erp">
             Como configurar os Campos Personalizados no Sistema ERP
           </a>
           . Feito isso, habilite quais informações você deseja solicitar.

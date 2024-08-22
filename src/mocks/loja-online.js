@@ -317,7 +317,7 @@ export const cardsLojaOnline = [
   {
     text: "Como configurar as Entregas da Loja Online no Sistema ERP",
     path: "/loja-online/como-configurar-as-entregas-da-loja-online-no-sistema-erp",
-    element: <ComoConfigurarAsEntregasDaLojaOnlineNoSistemaERP />,
+    element: <ComoConfigurarAsEntregasDaLojaOnlineDoSistemaERP />,
   },
   {
     text: "Como ocultar os Produtos sem estoque na LOJA Online",

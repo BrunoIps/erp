@@ -36,11 +36,16 @@ const ComoFuncionaORecursoVendasFoodsNaLojaOnline = () => {
           cabeça futuras com emissão de notas.
         </p>
 
-        {/* aqui tem que fazer pagina  */}
-        {/* <p>
-          Para isso, acompanhe: Como cadastrar Produtos Simples no Sistema ERP e
-          Como cadastrar Produtos Alimentícios (Foods) no Sistema ERP
-        </p> */}
+        <p>
+          Para isso, acompanhe:{" "}
+          <a href="/cadastros-basicos/como-cadastrar-produtos-simples-no-sistema-erp">
+            Como cadastrar Produtos Simples no Sistema ERP
+          </a>{" "}
+          e{" "}
+          <a href="/cadastros-basicos/como-cadastrar-produtos-alimenticios-foods-no-sistema-erp">
+            Como cadastrar Produtos Alimentícios (Foods) no Sistema ERP
+          </a>
+        </p>
 
         <h4>Criar a Loja Online</h4>
         <p>
@@ -53,7 +58,7 @@ const ComoFuncionaORecursoVendasFoodsNaLojaOnline = () => {
         </p>
         <p>
           Para isso, acompanhe:{" "}
-          <a href="loja-online/qual-e-o-passo-a-passo-para-criar-a-loja-online-no-sistema-erp">
+          <a href="/loja-online/qual-e-o-passo-a-passo-para-criar-a-loja-online-no-sistema-erp">
             Qual é o passo a passo para criar a Loja Online
           </a>
         </p>

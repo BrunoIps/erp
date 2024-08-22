@@ -89,14 +89,11 @@ const ComoUtilizarOFormularioDeContatoNaLojaOnline = () => {
         <p>
           Esta opção estará disponível caso deseje solicitar dados específicos
           ao novo usuário. Para isso, é necessário que você crie esses campos
-          nos atributos do seu sistema, configurando-os como pessoas.
-          {/*
-          aqui tem que fazer pagina
-          Para saber
+          nos atributos do seu sistema, configurando-os como pessoas. Para saber
           como criá-los, siga este artigo:{" "}
-          <a href="#">
+          <a href="/configuracoes/como-configurar-os-campos-personalizados-no-sistema-erp">
             Como configurar os Campos Personalizados no Sistema ERP
-          </a> */}
+          </a>
           . Feito isso, habilite quais informações você deseja solicitar.
           Lembrando que esses dados serão solicitados aos novos usuários, quando
           eles estiverem realizando seu primeiro cadastro no seu site.

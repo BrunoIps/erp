@@ -18,14 +18,15 @@ const ComoConfigurarBoletosBancariosNaLojaOnlineDoSistemaERP = () => {
           Para realizar mais vendas, você poderá disponibilizar a forma de
           pagamento Boleto Bancário na sua Loja Online.
         </p>
-        {/* aqui precisa fazer pagina */}
 
-        {/* <p>
+        <p>
           Porém, antes de começar, você já precisa ter uma conta bancária
           habilitada para a emissão de boleto no Sistema ERP. Veja o artigo:
-          Como cadastrar uma Conta Bancária para emitir boletos no Sistema ERP e
-          saiba mais sobre o assunto.
-        </p> */}
+          <a href="/cadastros-basicos/como-cadastrar-conta-bancaria-para-emitir-boleto-no-sistema-erp">
+            Como cadastrar uma Conta Bancária
+          </a>{" "}
+          para emitir boletos no Sistema ERP e saiba mais sobre o assunto.
+        </p>
         <p>
           Com a sua conta habilitada, você precisará acessar o menu lateral
           <b> Loja Online</b>, submenu <b>Configurações</b>.

@@ -34,7 +34,6 @@ const UtilizandoPIXDoMercadoPagoNaLojaOnline = () => {
         </p>
         <ol>
           <li>
-            {/* aqui tem que fazer pagina */}
             <a href="/cadastros-basicos/integrando-mercado-pago-no-sistema-erp">
               Integrando Mercado Pago no Sistema ERP
             </a>

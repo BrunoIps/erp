@@ -12,6 +12,7 @@ import { generateRoute } from "../../utils/geradorDeRotas";
 import { cadastroBasico } from "../../mocks/cadastrosBasicos";
 import { vendas } from "../../mocks/vendas";
 import { fiscal } from "../../mocks/fiscal";
+import { configuracoes } from "../../mocks/configuracoes";
 
 const StyledListItemButton = styled(ListItemButton)(({ theme, selected }) => ({
   backgroundColor: selected ? theme?.palette?.primary?.light : "inherit",
@@ -37,6 +38,7 @@ export const topics = [
   { text: "Loja Online", route: "/loja-online", subItems: cardsLojaOnline },
   { text: "Vendas", route: "/vendas", subItems: vendas },
   { text: "Fiscal", route: "/fiscal", subItems: fiscal },
+  { text: "Configurações", route: "/configuracoes", subItems: configuracoes },
 ];
 
 const NestedList = ({ maxHeight }) => {

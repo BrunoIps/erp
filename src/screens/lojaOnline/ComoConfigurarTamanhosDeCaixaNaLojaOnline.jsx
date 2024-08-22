@@ -19,6 +19,7 @@ const ComoConfigurarTamanhosDeCaixaNaLojaOnline = () => {
           (Correios). Nesse caso, se você deseja enviar as mercadorias para seus
           clientes através dos correios, será necessário realizar esta
           <a href="/loja-online/como-permitir-a-entrega-de-produtos-via-correios-na-loja-online">
+            {" "}
             configuração na sua Loja Online
           </a>
           , e depois, cadastrar os tamanhos de caixas que você utilizará para o

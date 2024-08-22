@@ -123,7 +123,6 @@ const ComoConfigurarODSLiteNaLojaOnline = () => {
           “pedido faturado”, por padrão, será informada a Categoria De Venda
           Padrão que foi configurada na Loja Online, podendo ou não realizar
           movimentações no seu estoque.
-          {/* aqui precisa fazer pagina */}
         </p>
         <p>
           Após isso,{" "}
@@ -135,7 +134,6 @@ const ComoConfigurarODSLiteNaLojaOnline = () => {
           receberá os dados dos itens comprados pelo seu cliente, bem como o
           endereço que será realizada a entrega. Dessa forma, você poderá
           acompanhar o andamento desse processo diretamente pelo painel DSLite.
-          {/* aqui precisa fazer pagina */}
         </p>
       </Typography>
     </Container>
