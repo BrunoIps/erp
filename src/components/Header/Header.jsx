@@ -15,7 +15,7 @@ const Header = () => {
             <SchoolIcon />
           </IconButton>
           <Typography variant="h6" component="div">
-            Central de Ajuda Aprenda ERP
+            Central de Ajuda Bhsys
           </Typography>
         </Box>
       </Toolbar>

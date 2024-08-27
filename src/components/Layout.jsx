@@ -68,7 +68,7 @@ const Header = () => (
           <SchoolIcon />
         </IconButton>
         <Typography variant="h6" component="div" sx={{ flexGrow: 1 }}>
-          Central de Ajuda Aprenda ERP
+          Central de Ajuda Bhsys
         </Typography>
         <Search>
           <SearchIconWrapper>
